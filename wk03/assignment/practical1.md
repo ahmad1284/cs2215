@@ -83,3 +83,111 @@ public class Q1 {
 ```
 
 ![Question 2b output](assets/q2b-out.png)
+
+# Q3
+
+```html
+<html>
+  <head>
+    <title>Question 3</title>
+  </head>
+  <body>
+    <!-- Ahmad Abdullah Web Technologies 09 April 2022-->
+    <table border="1">
+      <tr>
+        <th align="center" colspan="4">
+          Table Heading Cell Spanning 4 Columns
+        </th>
+      </tr>
+      <tr>
+        <td>Normal cell</td>
+        <td colspan="2">Cell spanning 2 columns</td>
+        <td>Normal cell</td>
+      </tr>
+      <tr>
+        <td rowspan="3" bgcolor="grey">Cell spanning 3 rows with a gray (US spelling) background</td>
+        <td>Normal cell</td>
+        <td>Normal cell</td>
+        <td>Normal cell</td>
+      </tr>
+      <tr>
+        <td>Normal cell</td>
+        <td colspan="2" rowspan="2">Cell spanning 2 rows and 2 columns</td>
+      </tr>
+      <tr>
+        <td>Normal cell</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+```
+
+![Question 3 output](assets/q3-out.png)
+
+# Q4
+
+```html
+<html>
+  <head>
+    <title>Question 4</title>
+  </head>
+  <body>
+    <!-- Ahmad Abdullah Web Technologies 09 April 2022-->
+    <form>
+      <fieldset>
+        <legend>Title</legend>
+        <div>
+          <label>Degree</label>
+          <select>
+            <option>Master of Business Administration</option>
+            <option>Bachelor</option>
+            <option>PhD</option>
+          </select>
+        </div>
+        <div>
+          <label>Student ID</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Classes attented</label>
+          <textarea name="textarea" rows="3" cols="11">
+            Geography Mathematics English
+          </textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div>
+          <label>First Name</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Last Name</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Gender</label>
+          <input type="radio" /> Male
+          <input type="radio" checked="true" /> Female
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" />
+        </div>
+        <div>
+      </fieldset>
+      <textarea name="textarea" rows="6" cols="40">
+TERMS AND CONDITION APPLY ...
+      </textarea>
+    </div>
+    <div>
+        <input type="submit" value="Send form">
+        <input type="reset" value="Clear form">
+        </div>
+    </form>
+  </body>
+</html>
+```
+
+![Question 4 output](assets/q4-out.png)
