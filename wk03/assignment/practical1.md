@@ -191,3 +191,59 @@ TERMS AND CONDITION APPLY ...
 ```
 
 ![Question 4 output](assets/q4-out.png)
+
+# Q5
+
+```html
+<html>
+  <head>
+    <title>Question 5</title>
+  </head>
+  <body>
+    <!-- Ahmad Abdullah Web Technologies 09 April 2022-->
+    <form>
+    <table border="1">
+      <tr>
+        <th align="center" colspan="2">Pizza Shop 2.0</th>
+      </tr>
+      <tr>
+        <td>Pizza Topping</td>
+        <td>
+          <input type="radio" />Supreme<br />
+          <input type="radio" />Vegeterian<br />
+          <input type="radio" />Hawaiian<br />
+        </td>
+      </tr>
+      <tr>
+        <td>Pizza Sauce</td>
+        <td>
+          <select>
+            <option>Tomato</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Optional Extras</td>
+        <td>
+          <input type="checkbox" />Extra Cheese <input type="checkbox" />Gluten
+          Free Base
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          Delivery Instructions:<br />
+          <textarea rows="4" cols="50"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Send my Order" />
+        </td>
+      </tr>
+    </table>
+</form>
+  </body>
+</html>
+```
+
+![Question 5 output](assets/q5-out.png)
