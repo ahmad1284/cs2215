@@ -1,21 +1,62 @@
 <html>
-  <!-- Ahmad Abdullah, Web Technologies 09 April 2022-->
-  <head>
-    <title>Project 2</title>
-  </head>
-  <body bgcolor="lightblue">
-    <h1>What are lists?</h1>
-    <p>
-      <b>In the html world we sometimes have to display lists</b>
-    </p>
-    <p>
-      <i>Lists are used to display a list of items</i>
-    </p>
-    <p>
-      <u>Lists can be ordered or unordered</u>
-    </p>
-    <h2>Unordered list</h2>
-    <code>
+<!-- Ahmad Abdullah, Web Technologies 09 April 2022-->
+
+<head>
+  <title>Project 2</title>
+</head>
+
+<body bgcolor="lightblue">
+  <h1>What are lists?</h1>
+  <!-- The assignment part-->
+  <ul>
+    <li><a href="#usage_notes">Usage Notes</a></li>
+    <li><a href="#unordered_list">Unordered</li>
+    <li><a href="#ordered_list">Ordered</a></li>
+  </ul>
+  <hr>
+  <p>
+    <b>In the html world we sometimes have to display lists</b>
+  </p>
+  <p>
+    <i>Lists are used to display a list of items</i>
+  </p>
+  <p>
+    <u>Lists can be ordered or unordered</u>
+  </p>
+  <hr>
+  <!-- End of assignment parts-->
+
+  <h2 id="usage_notes">Usage notes</h2>
+  <ul>
+    <li>The <code>&lt;ul&gt;</code> element is for grouping a collection of<br>
+      items that do not have a numerical ordering, and their order in the list<br>
+      is meaningless. Typically, unordered-list items are displayed with a <br>
+      bullet, which can be of several forms, like a dot, a circle, or a square.<br>
+      The bullet style is not defined in the HTML description of<br>
+      the page, but in its associated CSS, using the
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">
+        <code>list-style-type</code>
+      </a>
+      property.
+    </li>
+    <li>The <code>&lt;ul&gt;</code> and <a href="ol"><code>&lt;ol&gt;</code></a><br>
+      elements may be nested as deeply as desired. Moreover, the nested lists may<br>
+      alternate between <code>&lt;ol&gt;</code> and <code>&lt;ul&gt;</code>
+      without restriction.<br>
+    </li>
+    <li>The <a href="ol"><code>&lt;ol&gt;</code></a> and <code>&lt;ul&gt;</code> <br>
+      elements both represent a list of items. They differ in that, with the <br>
+      <a href="ol"><code>&lt;ol&gt;</code></a> element, the order is meaningful.<br>
+      As a rule of thumb to determine which one to use, try changing the order <br>
+      of the list items; if the meaning is changed, the <a href="ol"><code>&lt;ol&gt;</code></a><br>
+      element should be used, otherwise you can use <code>&lt;ul&gt;</code>.<br>
+    </li>
+  </ul>
+
+  <!-- Unordered lists -->
+  <h2 id="unordered_list">Unordered list</h2>
+  <code>
       <pre>
         &lt;ul&gt;
           &lt;li&gt;This&lt;/li&gt;
@@ -25,8 +66,10 @@
         &lt;/ul&gt;
       </pre>
     </code>
-    <h2>Ordered list</h2>
-    <code>
+
+  <!--- Ordered lists -->
+  <h2 id="ordered_list">Ordered list</h2>
+  <code>
       <pre>
         &lt;ol&gt;
           &lt;li&gt;This&lt;/li&gt;
@@ -36,5 +79,6 @@
         &lt;/ol&gt;
       </pre>
     </code>
-  </body>
+</body>
+
 </html>
