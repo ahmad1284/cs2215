@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="qn2.css" />
+    <title>Question 2</title>
+    <script>
+        function changeText() {
+            var hOne = document.getElementsByName("h1");
+          
+            hOne.style.color = "blue"
+            hOne.style.fontSize = "18pt"
+          }
+    </script>
+  </head>
+  <body>
+    <!-- Question: You are required to create an HTML form like 
+    the picture below and then, write a javascript code where
+    a world Hello will change color based on selected color 
+    from drop down there
+    -->
+    <h1>Hello</h1>
+    <form action="#">
+      <select name="choice">
+        <option value="black" onclick="changeText();">Black</option>
+        <option value="red" onclick="changeText();">Red</option>
+        <option value="blue" selected onclick="changeText();">Blue</option>
+        <option value="Green" onclick="changeText();">Red</option>
+      </select>
+    </form>
+  </body>
+</html>

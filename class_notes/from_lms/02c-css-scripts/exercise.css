@@ -1,0 +1,41 @@
+div {
+    border-radius:5px;
+}
+
+#header {
+    height:50px;
+    background-color:#FF3366;
+    margin-bottom:10px;
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+}
+
+.left {
+    height:900px;
+    width:150px;
+    background-color:#FF99CC;
+    float:left;
+    margin-bottom:10px;
+	position:relative;
+	margin-top:60px;
+    
+}
+
+.right {
+    height:900px;
+    width:300px;
+    background-color:#FFCCCC;
+    float:right;
+    margin-bottom:10px;
+	position:relative;
+	margin-top:60px;
+}
+
+#footer {
+    height:50px;
+    background-color:#FF3366;
+    clear:both;
+	position:relative;
+}
+    

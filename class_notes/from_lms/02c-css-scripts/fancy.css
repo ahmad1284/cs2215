@@ -1,0 +1,11 @@
+/*Define your CSS class .fancy below!*/
+.fancy {
+    display: block;
+    margin: 1%;
+    padding: 200px;
+    border: 2px coral;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  width: 100%;
+  text-align: center;
+}

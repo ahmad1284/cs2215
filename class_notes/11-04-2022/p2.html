@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function hello() {
+        let header = document.querySelector("h1");
+        if (header.innerHTML == "Hello") {
+          header.innerHTML == "Bye";
+        } else {
+          header.innerHTML == "Hello";
+        }
+      }
+
+      let counter = 0;
+      function count() {
+        counter++;
+        document.querySelector('h1').innerHTML = counter;
+
+        if(counter % 5 == 0)
+            alert(`${counter} is mod 5`);
+
+      }
+
+    document.addEventListener('DOMContentLoaded', function(){
+        
+    })
+    </script>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <button onClick="count()">Don't click here</button>
+  </body>
+</html>

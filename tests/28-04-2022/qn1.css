@@ -1,0 +1,32 @@
+/** qn1 css **/
+
+body {
+    margin-right: 50px;
+    width: 16em;
+}
+
+li.rugen {
+    background-color: #DDDDDD;
+}
+
+p.rugen {
+    background-color: #DDDDDD;
+    height: 18px;
+}
+
+strong {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+img {
+    margin: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.container {
+    display:flex;
+}

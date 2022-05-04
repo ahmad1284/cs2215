@@ -31,3 +31,34 @@ example
     
 </form>
 ```
+## Go and read
+
+- [] semantic html + accessibility
+- [] attributes
+
+
+# Cascading Style Sheet CSS (from lms)
+
+rules to style html
+
+selector > property
+element Selector
+---------------
+```css
+p {
+    color:red;
+}
+```
+
+positional selectors
+-------------------
+h1 + p
+div p
+div + p (directly follows)
+div~p(p preceded by div)
+
+**note**Refer to mdn
+
+attribute selector
+------------------
+

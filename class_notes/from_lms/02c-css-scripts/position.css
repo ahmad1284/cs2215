@@ -1,0 +1,36 @@
+* {
+	border: 1px dashed blue;
+}
+
+
+
+div {
+	height: 100px;
+	width: 400px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin:20px;
+	
+	/*Add your CSS here!*/
+	display: none;
+}
+
+#one {
+	background-color: #FF0000;
+	/* float:right; */
+}
+
+#two {
+	background-color: #0000FF;
+}
+
+#three {
+	background-color: #FFD700;
+}
+
+#four {
+	background-color: #308014;
+}
+#five {
+	background-color:#FF0;
+}

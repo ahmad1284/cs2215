@@ -1,0 +1,31 @@
+/** Qn3 CSS **/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: lightblue
+}
+
+h1, h2 {
+    background-color: blue;
+}
+
+p {
+    background-color: white;
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;height: 100px;
+    width: 100%;
+}
+
+ul li{
+    display: inline-block;
+    margin: 3px 3px;
+    padding: 8px 16px;
+    background-color: aqua;
+}
+
